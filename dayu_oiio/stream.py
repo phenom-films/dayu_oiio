@@ -307,9 +307,3 @@ class Text(UnaryFilterStream):
 
         temp += '\"{text}\" '.format(text=self.text)
         self._value += temp
-
-
-if __name__ == '__main__':
-    result = OIIO() + Input('/Users/andyguo/Desktop/seq/cc_0010_paint_master_v0001.%04d.exr', 1002, 1005) + \
-             Output('/Users/andyguo/Desktop/export/cc.%04d.exr', 1001, 1004)
-    print result.cmd()
