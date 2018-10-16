@@ -1,7 +1,7 @@
 # dayu_oiio
 
 是OpenImageIO 中oiiotool 的python 封装。将操作转换为stream 的概念，可以帮助用户不用记忆繁杂的终端命令行，直观的生成处理代码。
-
+OpenImageIO 是非常强力的序列帧转码工具，包括生成tx 的工具都可以直接通过OpenImageIO 实现！
 
 # 准备工作
 首先通过pip 进行安装
